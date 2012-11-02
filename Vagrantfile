@@ -64,7 +64,7 @@ Vagrant::Config.run do |config|
   # some recipes and/or roles.
   #
    config.vm.provision :chef_solo do |chef|
-    chef.cookbooks_path = "../redmine/cookbooks"
+    chef.cookbooks_path = "cookbooks"
   #   chef.roles_path = "../my-recipes/roles"
   #   chef.data_bags_path = "../my-recipes/data_bags"
       chef.add_recipe "rvm::system"
