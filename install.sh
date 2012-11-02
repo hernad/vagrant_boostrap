@@ -9,4 +9,5 @@ if [ "$RVM" != "1" ]; then
 fi
 
 bundle install
+
 bundle exec librarian-chef install
